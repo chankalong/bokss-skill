@@ -1,6 +1,6 @@
 # SurveyJS JSON example
 
-Minimal valid survey: required first page, one 2-item scale, hidden score page.
+New-survey example: `testType` + `completionDate`, one 2-item scale, hidden score page. When the user pastes an existing survey, keep their `name`s, `value`s, title, and widgets instead of this template.
 
 ```json
 {
@@ -174,7 +174,7 @@ Minimal valid survey: required first page, one 2-item scale, hidden score page.
 "expression": "{phq_1} + (3 - {phq_2}) + {phq_3}"
 ```
 
-**Cutoff category from a total:**
+**Cutoff category from a total (only if the scoring key defines bands; do not invent):**
 
 ```json
 {
