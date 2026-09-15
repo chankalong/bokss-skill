@@ -8,47 +8,42 @@
       "skills": ["refresh-insights-writing", "surveyjs-json"]
     },
     {
-      "title": "Anthropic",
-      "description": "Official and example skills from Anthropic. Document skills (Word, Excel, PowerPoint, PDF) stay on Anthropic's repo because they cannot be redistributed.",
+      "title": "Writing",
+      "description": "Skills for drafting, editing, and reviewing prose.",
       "skills": [
-        "academy-guide",
-        "algorithmic-art",
-        "brand-guidelines",
-        "canvas-design",
-        "claude-api",
-        "discernment-nudge",
-        "docx",
-        "doc-coauthoring",
-        "frontend-design",
+        "writing-guidelines",
         "internal-comms",
-        "mcp-builder",
-        "pdf",
-        "pptx",
-        "skill-creator",
-        "slack-gif-creator",
-        "theme-factory",
-        "web-artifacts-builder",
-        "webapp-testing",
-        "xlsx"
+        "discernment-nudge",
+        "academy-guide"
       ]
     },
     {
-      "title": "Writing",
-      "description": "Skills for drafting, editing, and reviewing prose.",
-      "skills": ["writing-guidelines"]
-    },
-    {
       "title": "Design",
-      "description": "Skills for reviewing and improving web interfaces.",
-      "skills": ["web-design-guidelines"]
+      "description": "Skills for reviewing and improving web interfaces and visual work.",
+      "skills": [
+        "web-design-guidelines",
+        "frontend-design",
+        "canvas-design",
+        "algorithmic-art",
+        "theme-factory",
+        "slack-gif-creator",
+        "web-artifacts-builder",
+        "brand-guidelines"
+      ]
     },
     {
       "title": "Development",
       "description": "Skills for building and reviewing production software.",
       "skills": [
+        "react-best-practices",
         "vercel-react-best-practices",
+        "composition-patterns",
         "vercel-composition-patterns",
-        "brainstorming"
+        "brainstorming",
+        "mcp-builder",
+        "webapp-testing",
+        "skill-creator",
+        "claude-api"
       ]
     }
   ],
@@ -56,32 +51,27 @@
     {
       "slug": "docx",
       "githubUrl": "https://github.com/anthropics/skills/tree/main/skills/docx",
-      "skillMdUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/docx/SKILL.md",
-      "group": "Anthropic"
+      "skillMdUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/docx/SKILL.md"
     },
     {
       "slug": "xlsx",
       "githubUrl": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
-      "skillMdUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/xlsx/SKILL.md",
-      "group": "Anthropic"
+      "skillMdUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/xlsx/SKILL.md"
     },
     {
       "slug": "pptx",
       "githubUrl": "https://github.com/anthropics/skills/tree/main/skills/pptx",
-      "skillMdUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/pptx/SKILL.md",
-      "group": "Anthropic"
+      "skillMdUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/pptx/SKILL.md"
     },
     {
       "slug": "pdf",
       "githubUrl": "https://github.com/anthropics/skills/tree/main/skills/pdf",
-      "skillMdUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/pdf/SKILL.md",
-      "group": "Anthropic"
+      "skillMdUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/pdf/SKILL.md"
     },
     {
       "slug": "doc-coauthoring",
       "githubUrl": "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring",
-      "skillMdUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/doc-coauthoring/SKILL.md",
-      "group": "Anthropic"
+      "skillMdUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/doc-coauthoring/SKILL.md"
     }
   ]
 }
