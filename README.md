@@ -1,6 +1,6 @@
 # bokss-skill
 
-Cursor / Claude / Codex skills for Baptist Oi Kwan Social Service (浸信會愛羣社會服務處).
+Cursor / Claude / Codex skills for Baptist Oi Kwan Social Service (浸信會愛群社會服務處).
 
 Install the whole library:
 
@@ -11,6 +11,8 @@ npx skills add chankalong/bokss-skill
 Or copy a single skill folder URL from the [BOKSS AI Resource Centre skill library](https://github.com/chankalong/bokss-skill) and paste it into your agent.
 
 ## Skills
+
+The public skill library groups copied skills by use case (BOKSS, Writing, Design, Development). Skills that cannot live in this repo appear under **Other GitHub** and copy their original GitHub link.
 
 ### BOKSS originals
 
@@ -23,7 +25,7 @@ Copied from [anthropics/skills](https://github.com/anthropics/skills). Each fold
 
 - academy-guide, algorithmic-art, brand-guidelines, canvas-design, claude-api, discernment-nudge, frontend-design, internal-comms, mcp-builder, skill-creator, slack-gif-creator, theme-factory, web-artifacts-builder, webapp-testing
 
-Document skills (`docx`, `xlsx`, `pptx`, `pdf`, `doc-coauthoring`) are **not** copied here. Their license forbids redistribution. The skill library page still lists them and copies the Anthropic GitHub link.
+Document skills (`docx`, `xlsx`, `pptx`, `pdf`, `doc-coauthoring`) are **not** copied here. Their license forbids redistribution. The skill library lists them under Other GitHub and copies the Anthropic GitHub link.
 
 ### Other third-party (MIT)
 
