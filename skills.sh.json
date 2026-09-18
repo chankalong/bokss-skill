@@ -5,30 +5,38 @@
     {
       "title": "BOKSS",
       "description": "Skills written for Baptist Oi Kwan Social Service workflows.",
-      "skills": ["refresh-insights-writing", "surveyjs-json"]
+      "skills": [
+        "refresh-insights-writing",
+        "surveyjs-json",
+        "bokss-hk-writing",
+        "pdpo-deidentify",
+        "clinical-safety-copilot",
+        "social-worker-case-recording",
+        "ot-case-recording",
+        "clinical-psychologist-case-recording",
+        "apply-diagnosis-approach",
+        "case-qa",
+        "draft-intake",
+        "draft-mh-assessment",
+        "draft-5p",
+        "draft-care-plan"
+      ]
     },
     {
       "title": "Writing",
       "description": "Skills for drafting, editing, and reviewing prose.",
       "skills": [
         "writing-guidelines",
-        "internal-comms",
-        "discernment-nudge",
-        "academy-guide"
+        "speak-human-tw",
+        "discernment-nudge"
       ]
     },
     {
       "title": "Design",
-      "description": "Skills for reviewing and improving web interfaces and visual work.",
+      "description": "Skills for reviewing and improving web interfaces.",
       "skills": [
         "web-design-guidelines",
-        "frontend-design",
-        "canvas-design",
-        "algorithmic-art",
-        "theme-factory",
-        "slack-gif-creator",
-        "web-artifacts-builder",
-        "brand-guidelines"
+        "frontend-design"
       ]
     },
     {
@@ -36,13 +44,12 @@
       "description": "Skills for building and reviewing production software.",
       "skills": [
         "react-best-practices",
-        "vercel-react-best-practices",
         "composition-patterns",
-        "vercel-composition-patterns",
         "brainstorming",
         "mcp-builder",
         "webapp-testing",
         "skill-creator",
+        "web-artifacts-builder",
         "claude-api"
       ]
     }
