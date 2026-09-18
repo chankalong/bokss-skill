@@ -8,6 +8,9 @@ Intervention / 方法介入: [name]
 Material objects: [學習者 / 教學者 / 產業 / 社區 / 學術理論, or remapped]
 Material dimensions: [only those evidenced]
 Diffusion path: [object A change → object B change → value created]
+IMP 五大維度 (working): What [outcome] / Who [underserved group] / How Much [規模、深度、持續] / Contribution [vs anyway] / Risk [material risk]
+NCSS SEF: [programme group and current metric, or not applicable]
+SROI: [in scope / out of scope and why]
 
 ## [Section number] Service / intervention model ([limit])
 
@@ -43,7 +46,8 @@ Diffusion path: [object A change → object B change → value created]
 - [Retained governance or review bullet.]
 - [新增：monitoring loop] Review reach, dose, completion, selected dimension indicators, stakeholder feedback, fidelity, and material risks at [frequency]; use findings to adjust delivery.
 - [新增：evaluation] Conduct [pre/post, contribution, qualitative, comparison, or other proportionate approach] only where feasible; document limitations.
-- [Optional新增：valuation] Explore SROI only after outcome evidence is mature; include stakeholder perspectives, counterfactual adjustments, and sensitivity testing.
+- [Optional新增：SEF] If the service matches an NCSS SEF programme group, use the current sector-outcome metric and the matching QOL monitor; state licence, training, and safeguarding for psychometric tools.
+- [Optional新增：valuation] Explore SROI only after outcome evidence is sufficiently mature; include stakeholder perspectives, deadweight, attribution, displacement, drop-off, and sensitivity testing. Do not present a projected ratio as a guarantee.
 
 ## Additions register
 

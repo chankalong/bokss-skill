@@ -1,6 +1,6 @@
 ---
 name: social-impact-measurement
-description: Measure social and research impact with the eight change dimensions (量的變化、質的變化、結構性變化、關係性變化、心理與態度變化、時間性變化、能力與行為變化、價值與意義變化) mapped onto stakeholders (學習者、教學者、產業、社區、學術理論). Use when designing a theory of change, outcomes, indicators, evaluation, 社會影響, 影響力評估, 研究貢獻, grant writing, SROI, IMP, or when classifying how an intervention changed people, systems, relationships, time, or meaning.
+description: Measure social and research impact with the eight change dimensions (量的變化、質的變化、結構性變化、關係性變化、心理與態度變化、時間性變化、能力與行為變化、價值與意義變化) mapped onto stakeholders (學習者、教學者、產業、社區、學術理論), then apply IMP 五大維度 (What, Who, How Much, Contribution, Risk), SROI, and NCSS Sector Evaluation Framework (SEF) where they fit. Use when designing a theory of change, outcomes, indicators, evaluation, 社會影響, 影響力評估, 研究貢獻, grant writing, Social Value, or when the user names IMP, SROI, NCSS, or SEF.
 ---
 
 # Social Impact Measurement
@@ -15,9 +15,10 @@ Use the attached eight-dimension framework as the primary coding and design lens
 2. **Map 影響的關係地圖.** Name the intervention at the centre. Identify objects. Scan all eight 影響方向. Keep only material cells. Trace 連結與擴散 across objects.
 3. **Read the dimension reference before coding.** Use [eight change dimensions](references/eight-change-dimensions.md) for verbatim subtypes, bipolar directions, and measurement cues. Do not invent extra dimensions or rename the eight.
 4. **Verify evidence claims.** Follow [framework and evidence safeguards](references/framework-and-evidence-safeguards.md) before claiming attribution, endorsement, prevention, cost saving, or statistical significance.
-5. **Build the measurement architecture.** For each material cell, define indicator, data source, timing, comparison, owner, use of findings, and limitation. Distinguish outputs, outcomes, contribution, and (only if justified) economic valuation.
-6. **Draft the requested deliverable.** Retain source structure and language unless a redesign is requested. For constrained grant fields, use [the point-form template](templates/impact-grant-point-form-template.md).
-7. **Validate before delivery.** Confirm the map, selected dimensions, evidence language, ethics, limits, and change record.
+5. **Apply complementary frameworks where they fit.** Read [IMP 五大維度, SROI, and NCSS SEF](references/imp-sroi-ncss-sef.md) when the user or funder names them, when standardised SSA metrics are needed, or when valuation is requested. Do not list acronyms in a short field unless asked.
+6. **Build the measurement architecture.** For each material cell, define indicator, data source, timing, comparison, owner, use of findings, and limitation. Distinguish outputs, outcomes, contribution, and (only if justified) economic valuation.
+7. **Draft the requested deliverable.** Retain source structure and language unless a redesign is requested. For constrained grant fields, use [the point-form template](templates/impact-grant-point-form-template.md).
+8. **Validate before delivery.** Confirm the map, selected dimensions, IMP/SROI/SEF use, evidence language, ethics, limits, and change record.
 
 ## 影響的關係地圖
 
@@ -109,6 +110,18 @@ Separate these layers:
 | Outcomes | Changes in the eight dimensions, experienced by objects |
 | Impact / contribution | Longer-term change to which the intervention plausibly contributes, including 連結與擴散 across objects |
 
+## IMP 五大維度, SROI, and NCSS SEF
+
+The eight dimensions classify the kind of change. These three lenses are complementary, not substitutes. Full procedures: [IMP 五大維度, SROI, and NCSS SEF](references/imp-sroi-ncss-sef.md).
+
+| Lens | Use when | Minimum substance |
+|---|---|---|
+| **IMP 五大維度** | Default stress-test on every material cell | What (outcome and importance); Who (including underserved); How Much (規模、深度、持續); Contribution (vs what would have happened anyway); Risk (likelihood × severity) |
+| **NCSS SEF** | Singapore SSA / funder context and a matching programme group | The current NCSS sector-outcome metric for that group, plus WHOQOL-BREF (18+) or KIDSCREEN-27 (<18) as the QOL monitor. Confirm the live table before naming a tool. |
+| **SROI** | Decision needs valuation and outcomes are already evidenced | Stakeholder-informed proxies; deadweight, attribution, displacement, drop-off; sensitivity; no promised ratio |
+
+Do not import SEF tools (ZBI, ACT SG, C-SSRS, and similar) onto unmatched education, design, or 地方創生 work. Do not monetise a cell that lacks outcome evidence.
+
 ## Ethics, inclusion, and data governance
 
 Apply to every design; elevate for children, vulnerable people, health, protection, migration, finances, or other sensitive contexts.
@@ -151,6 +164,9 @@ When the user asks what changed, deliver:
 - [ ] Outputs, outcomes, contribution, attribution, and economic valuation are not conflated.
 - [ ] Indicators match the dimension (counts are not used as the sole proof of 質、關係、意義, or 內化).
 - [ ] Framework, endorsement, and causal claims have current primary-source support or are qualified.
+- [ ] IMP 五大維度 are applied to material cells, or their omission is explained; Contribution is not confused with How Much depth.
+- [ ] NCSS SEF metrics, if used, match the live programme-group table; licences, training, and safeguarding are named for clinical/psychometric tools.
+- [ ] SROI, if used, includes adjustments, proxy sources, and sensitivity; the ratio is not presented as a guarantee.
 - [ ] Privacy, consent, safeguarding, equity, and burden are addressed at the required level.
 - [ ] Field limits, numbering, and language are preserved where requested; new content is distinct from retained text.
 

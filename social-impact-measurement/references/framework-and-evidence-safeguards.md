@@ -20,15 +20,15 @@ Do not promote 量的變化 to full impact, or outcome change to causal impact o
 
 ## Eight-dimension coding vs other frameworks
 
-The eight change dimensions are the primary classification. Other frameworks are optional lenses:
+The eight change dimensions are the primary classification. Apply complementary lenses from [IMP 五大維度, SROI, and NCSS SEF](imp-sroi-ncss-sef.md):
 
 - **Theory of change / logic model:** Explain why activities should produce selected cells in the 影響方向 × 對象 matrix and make assumptions testable.
-- **IMP Five Dimensions (What, Who, How Much, Contribution, Risk):** Use to stress-test materiality, underserved groups, scale/depth/duration, plausible contribution, and downside. In short grant fields, write this in plain language.
-- **SROI:** Use only when outcomes are evidenced and financial proxies are defensible. Include deadweight, attribution, displacement and drop-off where relevant, and sensitivity analysis. Never present an anticipated ratio as a guarantee.
-- **Sector or funder frameworks (e.g. NCSS, SDG, ESG):** Apply only when they match the service context. Confirm current outcome/tool recommendations from the primary source. Do not call a measure “recommended” merely because it is relevant.
-- **Client or academic frameworks:** Use as a secondary structure. If they conflict with stakeholder priorities or with the eight dimensions, state the limitation and keep measurement meaningful and ethical.
+- **IMP 五大維度 (What / 什麼, Who / 誰, How Much / 多少, Contribution / 貢獻, Risk / 風險):** Stress-test every material cell. How Much is 規模、深度、持續. Contribution is vs the counterfactual, not the same as depth. In short grant fields, write this in plain language.
+- **SROI / Social Value:** Use only when outcomes are evidenced and financial proxies are defensible. Apply SVI principles, including do not overclaim and be responsive. Include deadweight, attribution, displacement, drop-off, proxy sources, and sensitivity. Never present an anticipated ratio as a guarantee.
+- **NCSS Sector Evaluation Framework (SEF):** Use only for matching Singapore SSA programme groups. Confirm the current sector-outcome metric and QOL monitor (WHOQOL-BREF / KIDSCREEN-27) from the NCSS page. Do not call a tool “recommended” because it is validated or locally known. Do not apply C-SSRS, CANS, YLS/CMI, or similar tools without licence, training, and safeguarding.
+- **Other funder frameworks (SDG, ESG, Tote Board, and similar):** Treat as a structuring lens. Tote Board metrics may align with SEF; still match the actual programme group.
 
-Do not list framework acronyms in a constrained application field unless the funder asked for them.
+If a funder framework conflicts with stakeholder priorities or with the eight dimensions, state the limitation and keep measurement meaningful and ethical. Do not list acronyms in a constrained application field unless the funder asked for them.
 
 ## Sensitive services and populations
 
