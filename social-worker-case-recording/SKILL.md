@@ -1,6 +1,7 @@
 ---
 name: social-worker-case-recording
-description: Rewrite or polish a BOKSS/ICCMW social worker / Case Worker / ASWO progress note (four fields: Objective, Summary of Content, Worker's Assessment, Plan or Action). Use when the user pastes a 個案紀錄, DARP-like draft, or asks to structure a social work session note. Not for OT SOAP or CP six-field notes.
+description: >
+  Rewrite or polish a BOKSS/ICCMW social worker / Case Worker / ASWO progress note (four fields: Objective, Summary of Content, Worker's Assessment, Plan or Action). Use when the user pastes a 個案紀錄, DARP-like draft, or asks to structure a social work session note. Not for OT SOAP or CP six-field notes.
 ---
 
 # Case Worker progress note — Social Worker (ICCMW)

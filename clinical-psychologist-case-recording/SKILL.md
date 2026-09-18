@@ -1,6 +1,7 @@
 ---
 name: clinical-psychologist-case-recording
-description: Rewrite or polish a BOKSS/ICCMW clinical psychologist progress note (six fields: Objective, Behavioral Observation, Description or Progress, Clinical Impression, Intervention, Plan and Follow-up). Use when the user pastes a CP session note. Not a social-work four-field note.
+description: >
+  Rewrite or polish a BOKSS/ICCMW clinical psychologist progress note (six fields: Objective, Behavioral Observation, Description or Progress, Clinical Impression, Intervention, Plan and Follow-up). Use when the user pastes a CP session note. Not a social-work four-field note.
 ---
 
 # CP case recording — Clinical Psychologist (ICCMW)
