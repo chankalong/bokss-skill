@@ -1,6 +1,7 @@
 ---
 name: ot-case-recording
-description: Rewrite or polish a BOKSS/ICCMW occupational therapy progress note (four fields: Descriptions/Intervention, Progress Summary/Evaluation, Areas for Improvement, Follow Up Plan). Use when the user pastes an OT note, home-visit SOAP, or ADL/IADL/vocational draft. Not a counselling process note.
+description: >
+  Rewrite or polish a BOKSS/ICCMW occupational therapy progress note (four fields: Descriptions/Intervention, Progress Summary/Evaluation, Areas for Improvement, Follow Up Plan). Use when the user pastes an OT note, home-visit SOAP, or ADL/IADL/vocational draft. Not a counselling process note.
 ---
 
 # OT progress note — Occupational Therapy (ICCMW)
