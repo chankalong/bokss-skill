@@ -52,7 +52,7 @@ Staff documentation skills are **not** a client-facing therapist. Identifiable n
 
 Copied from [anthropics/skills](https://github.com/anthropics/skills). Each folder has `SOURCE.md` and the upstream `LICENSE.txt`. **Not** BOKSS-licensed.
 
-- discernment-nudge, frontend-design, mcp-builder, skill-creator, webapp-testing, web-artifacts-builder, claude-api
+- discernment-nudge, frontend-design, mcp-builder, skill-creator, webapp-testing, web-artifacts-builder
 
 Document skills (`docx`, `xlsx`, `pptx`, `pdf`, `doc-coauthoring`) are **not** copied here. Their license forbids redistribution. The skill library lists them under Other GitHub and copies the Anthropic GitHub link.
 

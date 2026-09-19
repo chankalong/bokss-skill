@@ -50,8 +50,7 @@
         "mcp-builder",
         "webapp-testing",
         "skill-creator",
-        "web-artifacts-builder",
-        "claude-api"
+        "web-artifacts-builder"
       ]
     }
   ],
