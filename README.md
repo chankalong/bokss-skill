@@ -24,6 +24,10 @@ Staff documentation skills are **not** a client-facing therapist. Identifiable n
 - **bokss-hk-writing** — Traditional Chinese service copy for bokss.org.hk, leaflets, and centre notices
 - **surveyjs-json** — bilingual SurveyJS assessment JSON for BOKSS
 
+**Impact**
+
+- **social-impact-measurement** — eight change dimensions, IMP, SROI, and NCSS SEF for programme/research impact and grant writing
+
 **Safety**
 
 - **pdpo-deidentify** — PDPO-aware redaction of Hong Kong identifiers before a model sees case-like text
