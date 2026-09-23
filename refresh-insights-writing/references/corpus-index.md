@@ -47,3 +47,31 @@ Weights: GA4 property `properties/298556736` (promotional site), linked GSC orga
 | 20.034 | 17 | 1146 | 1.48% | 2026-03-10 | 標準熱話科普 | 為何我們變成「初級大人」？心理學揭現代人的成熟焦慮 | `/tc/insights/hk-junior-adult-maturity-anxiety-refresh` |
 | 19.668 | 16 | 1581 | 1.01% | 2025-11-13 | 日子／國際日專題 | 世界友善日｜澳牛港式Mean「整定嘅」？ 毒舌背後的善意 | `/tc/insights/hong-kong-mean-culture-australia-dairy-company` |
 | 18.338 | 13 | 2541 | 0.51% | 2023-07-20 | 標準熱話科普 | 原來是潛意識主宰你人生 4個你可能不知道的「潛」能 | `/tc/insights/unconscious-mind` |
+
+## subtype_guess（標準熱話科普 only）
+
+Lightweight labels for drafting calibration — **source of truth for definitions:** [article-types.md](article-types.md) §subtypes. Map covers top-weight 標準 rows above plus gold-card 標準 paths.
+
+| subtype_guess | path |
+|---------------|------|
+| 關係／親密／溝通技巧 | `/tc/insights/5-Love-Languages` |
+| 個人成長／情緒機制（evergreen） | `/tc/insights/Inner-child` |
+| 測驗／自測引流 | `/tc/insights/highly-sensitive-people` |
+| 個人成長／情緒機制（evergreen） | `/tc/insights/AutomaticThoughts` |
+| 個人成長／情緒機制（evergreen） | `/tc/insights/positive_quotes` |
+| 個人成長／情緒機制（evergreen） | `/tc/insights/amygdala-hijack` |
+| 個人成長／情緒機制（evergreen） | `/tc/insights/Extrovert-Introvert` |
+| 照顧者／親子／家庭 | `/tc/insights/caregivers` |
+| 職場壓力／轉工／打工仔情緒 | `/tc/insights/should-i-resign-2024` |
+| 關係／親密／溝通技巧 | `/tc/insights/Emotional-Value` |
+| 個人成長／情緒機制（evergreen） | `/tc/insights/hk_overcoming-emotional-numbness-meaning-therapy` |
+| 個人成長／情緒機制（evergreen） | `/tc/insights/loneliness-5ways` |
+| 個人成長／情緒機制（evergreen） | `/tc/insights/hong-kong-art-therapy-stress-relief-refresh` |
+| 關係／親密／溝通技巧 | `/tc/insights/comfort-just-right` |
+| 個人成長／情緒機制（evergreen） | `/tc/insights/once-in-a-lifetime` |
+| 測驗／自測引流 | `/tc/insights/procrastination-2024` |
+| 照顧者／親子／家庭 | `/tc/insights/family-therapy-concepts` |
+| 照顧者／親子／家庭 | `/tc/insights/student-suicide` |
+| 個人成長／情緒機制（evergreen） | `/tc/insights/perfectionist` |
+| 個人成長／情緒機制（evergreen） | `/tc/insights/hk-junior-adult-maturity-anxiety-refresh` |
+| 個人成長／情緒機制（evergreen） | `/tc/insights/unconscious-mind` |

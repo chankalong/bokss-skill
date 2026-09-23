@@ -6,6 +6,7 @@ Rule: rank by GA4 `weight_28d` (organic clicks primary), then ensure at least on
 
 - **URL:** https://refresh.bokss.org.hk/tc/insights/5-Love-Languages
 - **Type:** 標準熱話科普
+- **Subtype:** 關係／親密／溝通技巧（see [article-types.md](article-types.md)）
 - **Weight_28d:** 252.681 (clicks=160, imps=46254, ctr=0.0035)
 - **Date (list):** 2023-07-03
 - **Shape (distill):** 五種愛的語言 construct → HK couple scenes → practice per language; evergreen SEO magnet
@@ -15,6 +16,7 @@ Rule: rank by GA4 `weight_28d` (organic clicks primary), then ensure at least on
 
 - **URL:** https://refresh.bokss.org.hk/tc/insights/Inner-child
 - **Type:** 標準熱話科普
+- **Subtype:** 個人成長／情緒機制（evergreen）
 - **Weight_28d:** 135.173 (clicks=120, imps=7168, ctr=0.0167)
 - **Date (list):** 2024-05-03
 - **Shape (distill):** 內在小孩 naming → validate → gentle self-heal steps
@@ -24,6 +26,7 @@ Rule: rank by GA4 `weight_28d` (organic clicks primary), then ensure at least on
 
 - **URL:** https://refresh.bokss.org.hk/tc/insights/highly-sensitive-people
 - **Type:** 標準熱話科普
+- **Subtype:** 測驗／自測引流
 - **Weight_28d:** 129.867 (clicks=98, imps=15778, ctr=0.0062)
 - **Date (list):** 2024-08-01
 - **Shape (distill):** HSP trait（非診斷）→ overstimulation scenes → sensory/boundary steps

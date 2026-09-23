@@ -5,13 +5,14 @@ Fill this before invoking `refresh-insights-writing`. Keep answers short.
 1. **Topic / hook** (HK scene, trend, or calendar day):
 2. **Audience** (打工仔 / 家長 / 照顧者 / 青少年 / 企業 HR):
 3. **Article type** (see `article-types.md`):
-4. **Must-name constructs** (Chinese + English if known):
-5. **Practice angle** (personal only / + team / + org):
-6. **CTA** (none / workshop / counselling / EAP / Plus):
-7. **Safety flags** (suicide / abuse / addiction / diagnostic criteria?): Y/N — if Y, require Safety line
-8. **Sources on hand** (or write `待補`):
-9. **Length band**: 心靈急救 / 標準 / 深度／Plus
-10. **Forbidden** (brand names, unverified stats, clinical claims):
+4. **標準 subtype**（only when type = 標準熱話科普 — pick one from `article-types.md` §subtypes; else `—`）:
+5. **Must-name constructs** (Chinese + English if known):
+6. **Practice angle** (personal only / + team / + org):
+7. **CTA** (none / workshop / counselling / EAP / Plus):
+8. **Safety flags** (suicide / abuse / addiction / diagnostic criteria?): Y/N — if Y, require Safety line
+9. **Sources on hand** (or write `待補`):
+10. **Length band**: 心靈急救 / 標準 / 深度／Plus
+11. **Forbidden** (brand names, unverified stats, clinical claims):
 
 ## Output ask (paste to the model)
 
