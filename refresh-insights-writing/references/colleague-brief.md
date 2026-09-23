@@ -14,6 +14,8 @@ Fill this before invoking `refresh-insights-writing`. Keep answers short.
 10. **Length band**: 心靈急救 / 標準 / 深度／Plus
 11. **Forbidden** (brand names, unverified stats, clinical claims):
 
+**Slots:** Type + subtype + length band decide **required vs optional** sections — see `article-types.md` (not every draft needs 文章摘要 or 2–4 mechanisms). **必須強調** when Safety flag = Y (Safety line; 日子＋FAQ if applicable). **允許省略** empty optional slots — no filler.
+
 ## Output ask (paste to the model)
 
-> 用 `refresh-insights-writing`：依 brief 產出完整 Insights 草稿（標題、tags、摘要、byline、正文、參考資料）。書面語；唔好診斷讀者；冇來源就寫「參考資料：待補」。
+> 用 `refresh-insights-writing`：依 brief 與 `article-types.md` 產出 Insights 草稿（Invariant 齊；slots 按 type／subtype 取捨）。書面語；唔好診斷讀者；冇來源就寫「參考資料：待補」。
