@@ -15,9 +15,11 @@ Window: ~7 days ending 2026-09-23. Distill only; no full-text archive in skill.
 
 ## GA4 linked GSC organic (property `298556736`, promotional site)
 
-Date range: **7daysAgo → yesterday** (Asia/Hong_Kong). Metrics: `organicGoogleSearchClicks` / Impressions / Avg position / CTR. Filter: landing contains `/insights/`.
+Metrics: `organicGoogleSearchClicks` / Impressions / Avg position / CTR. Filter: landing contains `/insights/`.
 
-### Top Insights landings by organic clicks
+### Top Insights landings by organic clicks (7d)
+
+Date range: **7daysAgo → yesterday** (Asia/Hong_Kong).
 
 | Landing | Clicks | Impressions | Avg pos | CTR |
 |---------|-------:|------------:|--------:|----:|
@@ -32,9 +34,31 @@ Date range: **7daysAgo → yesterday** (Asia/Hong_Kong). Metrics: `organicGoogle
 | `/tc/insights/Extrovert-Introvert` | 7 | 2321 | 7.43 | 0.30% |
 | `/tc/insights/procrastination-2024` | 7 | 657 | 8.57 | 1.07% |
 
+### Top Insights landings by organic clicks (28d)
+
+Date range: **28daysAgo → yesterday** (Asia/Hong_Kong).
+
+| Landing | Clicks | Impressions | Avg pos | CTR |
+|---------|-------:|------------:|--------:|----:|
+| `/tc/insights/5-Love-Languages` | 160 | 46254 | 6.98 | 0.35% |
+| `/tc/insights/Inner-child` | 120 | 7168 | 6.07 | 1.67% |
+| `/tc/insights/highly-sensitive-people` | 98 | 15778 | 5.99 | 0.62% |
+| `/tc/insights/AutomaticThoughts` | 72 | 1518 | 7.45 | 4.74% |
+| `/tc/insights/positive_quotes` | 52 | 8201 | 7.63 | 0.63% |
+| `/tc/insights/amygdala-hijack` | 42 | 5871 | 10.18 | 0.72% |
+| `/tc/insights/caregivers` | 40 | 1000 | 8.36 | 4.00% |
+| `/tc/insights/should-i-resign-2024` | 38 | 1411 | 9.05 | 2.69% |
+| `/tc/insights/hk_overcoming-emotional-numbness-meaning-therapy` | 27 | 1782 | 7.07 | 1.52% |
+| `/tc/insights/hong-kong-art-therapy-stress-relief-refresh` | 26 | 838 | 8.18 | 3.10% |
+| `/tc/insights/Extrovert-Introvert` | 25 | 10310 | 6.76 | 0.24% |
+| `/tc/insights/Emotional-Value` | 24 | 7392 | 8.60 | 0.32% |
+| `/tc/insights/loneliness-5ways` | 23 | 3161 | 8.17 | 0.73% |
+| `/tc/Insights/Chinese-medicine2804` | 22 | 648 | 12.65 | 3.40% |
+| `/tc/insights/procrastination-2024` | 19 | 2714 | 8.98 | 0.70% |
+
 ### Notes for writers / SEO desk
 
-- Evergreen construct pages (五愛、內在小孩、HSP、杏仁核劫持) still dominate clicks vs brand-new calendar pieces.
+- Evergreen construct pages (五愛、內在小孩、HSP、杏仁核劫持) still dominate clicks in both 7d and 28d vs brand-new calendar pieces.
 - High CTR / lower impression pages (`AutomaticThoughts`, `caregivers`) = intent-rich; good model for naming constructs in titles.
 - This week’s new family + presenteeism pieces: track next week; email campaign already drove non-organic sessions to those URLs.
 - Query-level GSC dimension not available via this GA4 MCP field set; page-level organic metrics only.
