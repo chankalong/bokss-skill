@@ -11,6 +11,19 @@ Hot-topic hook → named psychology concept → credible mechanism → usable st
 
 **Body language:** Hong Kong 書面語 (like published Re:Fresh pieces). Titles may use light HK colloquial (`點算好`、`好攰`). **Cantonese grammar particles as default prose (`嘅／咗／唔／係／喺` running through paragraphs) = fail** — put spoken Cantonese only inside「」. Not TW/CN web-psychoedu, not LinkedIn viral self-help.
 
+## Load order / Before drafting
+
+**Mandatory for all agents (Claude, Cursor, LibreChat, etc.):** the host does **not** auto-inject these reference files. You **must** Read them yourself before drafting.
+
+**Before drafting, Read these files in order:**
+
+1. [references/colleague-brief.md](references/colleague-brief.md) — if brief fields are missing, ask or list gaps first; when type is **標準熱話科普**, **標準 subtype** is required
+2. [references/article-types.md](references/article-types.md) — top-level type + 標準 subtypes
+3. [references/gold-cards.md](references/gold-cards.md) — structure cards only (≤5); never copy full article text
+4. [references/style-patterns.md](references/style-patterns.md) — when you need hook / title / CTA phrasing
+5. [references/weekly-digest.md](references/weekly-digest.md) — when you need this week's preferences / GA weight hints
+6. [references/corpus-index.md](references/corpus-index.md) (and [corpus-index.csv](references/corpus-index.csv)) — calibration / exemplar paths only; do **not** require a full corpus sweep
+
 ## Output contract (every slot)
 
 Omit a slot only if the user explicitly says so.
