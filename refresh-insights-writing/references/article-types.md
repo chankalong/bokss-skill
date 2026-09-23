@@ -2,6 +2,8 @@
 
 Use these labels when matching a brief to a skeleton. Patterns, not full articles.
 
+When calibrating how often to draft each type, cross-check live mix against `type_guess` counts in [corpus-index.md](corpus-index.md) (full listed corpus, not this week only).
+
 | Type | Signal | Typical length | Must-have slots |
 |------|--------|----------------|-----------------|
 | 標準熱話科普 | `【…】` or plain pain-point title; tags `#文章` | ~1500–2800 | Hook → 2–4 mechanisms → 2–4 steps → soft CTA |

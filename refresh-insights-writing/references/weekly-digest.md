@@ -2,6 +2,11 @@
 
 Window: ~7 days ending 2026-09-23. Distill only; no full-text archive in skill.
 
+## Method change
+
+Distillation corpus = **all listed Insights** + GA4 organic weights (not last-7-days-only).
+See [corpus-index.md](corpus-index.md) + [corpus-index.csv](corpus-index.csv).
+
 ## New / notable Insights
 
 | Date (list) | Slug | Type | One-line pattern |
@@ -63,7 +68,18 @@ Date range: **28daysAgo → yesterday** (Asia/Hong_Kong).
 - This week’s new family + presenteeism pieces: track next week; email campaign already drove non-organic sessions to those URLs.
 - Query-level GSC dimension not available via this GA4 MCP field set; page-level organic metrics only.
 
-## Skill maintenance actions this week
+## New Insights (~7d ending 2026-09-23)
 
-- Add missing `references/`: article-types, colleague-brief, gold-cards, weekly-digest; refresh style-patterns lightly
-- **Do not** rewrite `SKILL.md` core contract
+- 2026-09-16: `/tc/insights/aging-parents-sibling-conflicts` — 父母年老患病，手足就翻舊帳？拆解家庭危機，3 招化解兄弟姊妹間的怨懟 (clicks_28d=0, clicks_7d=0)
+- 2026-09-23: `/tc/insights/positive-psychology-happiness` — 【正向心理學】快樂都有方程式？從心理學一手掌握幸福自主權！ (clicks_28d=0, clicks_7d=0)
+
+## Weight leaders (28d organic clicks) — skill focus
+
+Evergreen construct pages still dominate: 五愛的語言、內在小孩、HSP、Automatic Thoughts、杏仁核劫持、照顧者、辭職決策等。
+New calendar/family/Plus pieces rarely enter Top organic in week-1; track next week via clicks_7d delta.
+
+## Maintenance
+
+- Incrementally update corpus-index when listing gains URLs
+- Refresh weights weekly from GA4 MCP (28d primary, 7d contrast)
+- Re-pick gold-cards only when rank/type mix shifts materially
