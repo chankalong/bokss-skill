@@ -17,7 +17,7 @@ Hot-topic hook → named psychology concept → credible mechanism → usable st
 
 1. [references/colleague-brief.md](references/colleague-brief.md) — if brief fields are missing, ask or list gaps first; when type is **標準熱話科普**, **標準 subtype** is required
 2. [references/article-types.md](references/article-types.md) — top-level type + 標準 subtypes; apply each row’s **required vs optional** slots (do not march every piece through the full default skeleton)
-3. [references/gold-cards.md](references/gold-cards.md) — structure cards only (≤5); never copy full article text
+3. [references/gold-cards.md](references/gold-cards.md) — read the full gold-cards (Layer A+B); never copy full article text
 4. [references/style-patterns.md](references/style-patterns.md) — when you need hook / title / CTA phrasing
 5. [references/weekly-digest.md](references/weekly-digest.md) — when you need this week's preferences / GA weight hints
 6. [references/corpus-index.md](references/corpus-index.md) (and [corpus-index.csv](references/corpus-index.csv)) — calibration / exemplar paths only; do **not** require a full corpus sweep
