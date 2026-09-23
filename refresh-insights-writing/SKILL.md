@@ -59,4 +59,4 @@ Each key claim needs a real construct name, a known authority you can stand behi
 | Whole piece in oral Cantonese 「更港」 | Rewrite body to 書面語; quotes only |
 | Meta labels (`### 標題：`) in output | Emit real title/tags, not slot names |
 
-Phrase banks: [references/style-patterns.md](references/style-patterns.md).
+Phrase banks: [references/style-patterns.md](references/style-patterns.md). Weekly context: [article-types.md](references/article-types.md), [colleague-brief.md](references/colleague-brief.md), [gold-cards.md](references/gold-cards.md), [weekly-digest.md](references/weekly-digest.md).
