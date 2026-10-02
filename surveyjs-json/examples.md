@@ -132,11 +132,13 @@ New-survey example: `testType` + `completionDate`, one 2-item scale, hidden scor
             "default": "WSAS Total Score",
             "tc": "WSAS 總分"
           },
-          "expression": "{wsas_work} + {wsas_home}"
+          "expression": "{wsas_work} + {wsas_home}",
+          "clearIfInvisible": "none"
         }
       ]
     }
   ],
+  "clearInvisibleValues": "onHidden",
   "headerView": "advanced"
 }
 ```
@@ -157,13 +159,15 @@ New-survey example: `testType` + `completionDate`, one 2-item scale, hidden scor
     "type": "expression",
     "name": "fiat_ca_total",
     "title": { "default": "FIAT-Q-SF Conflict Aversion", "tc": "FIAT-Q-SF 衝突迴避總分" },
-    "expression": "{fiat_ca_1} + {fiat_ca_2} + {fiat_ca_3} + {fiat_ca_4} + {fiat_ca_5}"
+    "expression": "{fiat_ca_1} + {fiat_ca_2} + {fiat_ca_3} + {fiat_ca_4} + {fiat_ca_5}",
+    "clearIfInvisible": "none"
   },
   {
     "type": "expression",
     "name": "fiat_total",
     "title": { "default": "FIAT-Q-SF Total", "tc": "FIAT-Q-SF 總分" },
-    "expression": "{fiat_ca_total} + {fiat_other_total}"
+    "expression": "{fiat_ca_total} + {fiat_other_total}",
+    "clearIfInvisible": "none"
   }
 ]
 ```
@@ -181,6 +185,7 @@ New-survey example: `testType` + `completionDate`, one 2-item scale, hidden scor
   "type": "expression",
   "name": "wsas_band",
   "title": { "default": "WSAS band", "tc": "WSAS 分類" },
-  "expression": "iif({wsas_total} < 10, 'mild', iif({wsas_total} < 21, 'moderate', 'severe'))"
+  "expression": "iif({wsas_total} < 10, 'mild', iif({wsas_total} < 21, 'moderate', 'severe'))",
+  "clearIfInvisible": "none"
 }
 ```

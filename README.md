@@ -21,6 +21,7 @@ Staff documentation skills are **not** a client-facing therapist. Identifiable n
 **Comms**
 
 - **refresh-insights-writing** — Re:Fresh Insights-style Traditional Chinese psychoeducation articles
+- **refresh-html** — paste-ready CKEditor HTML that uses the Re:Fresh theme CSS only
 - **bokss-hk-writing** — Traditional Chinese service copy for bokss.org.hk, leaflets, and centre notices
 - **surveyjs-json** — bilingual SurveyJS assessment JSON for BOKSS
 

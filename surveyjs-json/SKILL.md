@@ -1,6 +1,6 @@
 ---
 name: surveyjs-json
-description: Writes SurveyJS survey JSON for BOKSS assessments with bilingual Traditional Chinese (tc) + English, locale tc, and a hidden last page of expression score totals. When editing existing JSON, preserve original names, values, titles, and widgets. Use when creating, converting, or editing SurveyJS questionnaire JSON, assessment forms, or scale surveys.
+description: Writes SurveyJS survey JSON for BOKSS assessments with bilingual Traditional Chinese (tc) + English, locale tc, and a hidden last page of expression score totals. Each score expression uses clearIfInvisible none; the survey uses clearInvisibleValues onHidden. When editing existing JSON, preserve original names, values, titles, and widgets. Use when creating, converting, or editing SurveyJS questionnaire JSON, assessment forms, or scale surveys.
 ---
 
 # SurveyJS JSON
@@ -13,9 +13,10 @@ When modifying an existing SurveyJS JSON, preserve every original `name`, `value
 
 1. **New vs edit:** decide first. **New survey** (no existing JSON): first page `testType` then `completionDate`, then extras. **Edit existing JSON** (user pasted a survey): keep their fields; do not inject `testType`/`completionDate` if they already have an occasion or date field.
 2. **Last page** must be hidden (`"visible": false`) and hold `expression` questions that calculate scores. Never a visible results / 社工檢視 page unless the user wants scores on screen.
-3. **Every user-visible string** is bilingual: English in `default`, Traditional Chinese in `tc`. Root `"locale": "tc"`. Do **not** add a Chinese/English language radiogroup; the host already switches locale.
+3. **Score persistence (SurveyJS 2.3.6):** root `"clearInvisibleValues": "onHidden"`, and `"clearIfInvisible": "none"` on **every** hidden-page expression. The survey setting still clears leftover answers on skipped scales (for example 只填 DASS-Y). The question setting keeps those expressions in `valuesHash`, which the host save logic reads. Do not move scores to `calculatedValues`.
+4. **Every user-visible string** is bilingual: English in `default`, Traditional Chinese in `tc`. Root `"locale": "tc"`. Do **not** add a Chinese/English language radiogroup; the host already switches locale.
 
-Do not use bilingual objects on `description` or `html`. Do not use `"type": "html"` or `"calculatedValues"`. Put instructions in a **panel `title`**. End with `"headerView": "advanced"`.
+Do not use bilingual objects on `description` or `html`. Do not use `"type": "html"` or `"calculatedValues"`. Put instructions in a **panel `title`**. End with `"headerView": "advanced"`. Replacing JSON does not backfill earlier responses that are missing scores; confirm with a new submission.
 
 ## Root skeleton
 
@@ -27,6 +28,7 @@ Do not use bilingual objects on `description` or `html`. Do not use `"type": "ht
     "tc": "繁體中文標題"
   },
   "pages": [],
+  "clearInvisibleValues": "onHidden",
   "headerView": "advanced"
 }
 ```
@@ -116,19 +118,21 @@ Always the final page. Participants never see it; expressions still run and valu
         "default": "Scale Total Score",
         "tc": "量表總分"
       },
-      "expression": "{item_1} + {item_2} + {item_3}"
+      "expression": "{item_1} + {item_2} + {item_3}",
+      "clearIfInvisible": "none"
     }
   ]
 }
 ```
 
-- One `expression` per total **and** per subscale the scoring key defines.
+- One `expression` per total **and** per subscale the scoring key defines. Each one includes `"clearIfInvisible": "none"`.
 - Reference items with `{questionName}`. Values are numeric strings (`"0"`…); SurveyJS coerces them in `+`.
 - Reverse-scored item: `{max} - {item}` e.g. `7 - {phq_2}` when 0–3 is reversed.
 - Cut-offs / severity bands **only** if the scoring key defines them (e.g. DASS-Y). Academic / pre–post scales: one total (and optional `score + ' / ' + max` string). No invented cut-offs.
 - Never put score expressions on a visible page. Never substitute `calculatedValues`.
 - Do **not** add a visible 社工檢視 / results / caseworker page unless the user explicitly wants people to **see** scores on screen. “Caseworker view” means fields stored in the result, not a visible page.
-- Optional batteries: `"visibleIf": "{questionnaireScope} = 'full'"` on extra scale pages; `"clearInvisibleValues": "onHidden"` is OK so skipped scales do not keep leftover answers.
+- Optional batteries: `"visibleIf": "{questionnaireScope} = 'full'"` on extra scale pages. Root `"clearInvisibleValues": "onHidden"` clears those skipped answers. It does **not** clear score expressions, because each one sets `"clearIfInvisible": "none"`.
+- On SurveyJS 2.3.6 this pair puts names such as `depression` and `depression_group` into `valuesHash`. Old responses stay as saved; only a new submission picks up the scores.
 
 ## Scale questions
 
@@ -167,7 +171,9 @@ Conditional follow-up:
 |-------|-------------|
 | Bilingual `description` / `html` | Panel `title` |
 | `"type": "html"` | Panel |
-| `"calculatedValues"` | Hidden last-page `expression` |
+| `"calculatedValues"` | Hidden last-page `expression` with `"clearIfInvisible": "none"` |
+| Omitting `clearIfInvisible` on score expressions | `"none"` on every scores-page expression |
+| Survey default clear (`onComplete`) | Root `"clearInvisibleValues": "onHidden"` |
 | `"colCount"` | Omit unless asked |
 | `"inputType"` on **new** fields | Omit unless asked; **keep** `inputType` / `min` / `max` when the source survey already has them |
 | Locale `zh-tw` / `zh-hk` | `"tc"` |
@@ -178,7 +184,7 @@ Conditional follow-up:
 2. Collect English + 繁體中文 for every title and choice (translate if only one language is given).
 3. **New:** bilingual title from source papers; first page `testType` + `completionDate` (or the source’s three-wave occasion if it has one). **Edit:** wrap existing `title`; do not change it unless asked.
 4. Add scale pages (panels + radiogroups) around preserved fields. New fields get new ASCII names.
-5. Add hidden `scores` page with one expression per total/subscale. No visible results page.
+5. Add hidden `scores` page with one expression per total/subscale, each with `"clearIfInvisible": "none"`. Set root `"clearInvisibleValues": "onHidden"`. No visible results page.
 6. Close with `"headerView": "advanced"`.
 7. Run the checklist.
 
@@ -189,7 +195,8 @@ Conditional follow-up:
 - [ ] If editing existing JSON: original `name` / `value` / question `type` / date `inputType` / survey title unchanged unless asked
 - [ ] No in-survey language question
 - [ ] No visible results page
-- [ ] Last page `"visible": false` with `expression` score fields
+- [ ] Last page `"visible": false` with `expression` score fields, each `"clearIfInvisible": "none"`
+- [ ] Root `"clearInvisibleValues": "onHidden"`
 - [ ] Cut-offs only where the scoring key defines them
 - [ ] Every `title` and choice `text` has `default` + `tc`
 - [ ] No bilingual `description` / `html`; no `calculatedValues`
