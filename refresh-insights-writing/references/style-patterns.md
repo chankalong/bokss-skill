@@ -27,6 +27,22 @@
 - Workshop: 「想突破…？立即了解《…》工作坊」+ link placeholder
 - Care: 「若情緒持續影響生活，請及早尋求心理輔導」
 - EAP / Plus: only if brief asks for workplace column framing
+- Workshop replay / signup mid or early for 引流短篇
+- Safety FAQ block for suicide/trauma days (辨識 → 開解 → 專業協助／自我照顧)
+
+## Title moves seen this week
+
+- `痛點場景，拆解…，N 招…` (手足舊帳)
+- `【Re:Fresh Plus專屬內容】深度專欄 | 數據／痛點 + 三招…`
+- `【正向心理學】概念？從心理學一手掌握…` (construct bracket)
+- Calendar: `【9.10世界防止自殺日】迷思？`
+
+## New section habits
+
+- Numbered conflict taxonomy (`常見的三種「舊帳」` + 一／二／三 with quoted Cantonese labels)
+- Plus columns: **個人／團隊／企業** (or 個人／企業) practice layers
+- Optional on-site **AI 摘要** → mirror as 文章摘要 bullets in drafts
+- Explicit 「非精神疾病診斷」disclaimer when popular syndrome labels appear (Impostor etc.)
 
 ## Lexicon quick map (prefer → avoid)
 
@@ -44,6 +60,10 @@
 - Quote OK: 「放假仲攰過返工，日日喺屋企對住啲細路…」
 - Body prefer: `每逢暑假，作為家長的你，是否也有這些矛盾和煩惱？`
 - Body avoid: `好多家長係暑假都覺得頂唔順，成日喺度嘈…` (unless inside quotes)
+
+**Register reminder**
+
+Spoken Cantonese in「」for lived voice (`次次都係我做曬！`); surrounding narration 書面語.
 
 ## Source honesty
 
