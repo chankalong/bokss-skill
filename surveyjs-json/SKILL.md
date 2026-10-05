@@ -1,6 +1,6 @@
 ---
 name: surveyjs-json
-description: Writes SurveyJS survey JSON for BOKSS assessments with bilingual Traditional Chinese (tc) + English, locale tc, and a hidden last page of expression score totals. Each score expression uses clearIfInvisible none; the survey uses clearInvisibleValues onHidden. When editing existing JSON, preserve original names, values, titles, and widgets. Use when creating, converting, or editing SurveyJS questionnaire JSON, assessment forms, or scale surveys.
+description: Writes SurveyJS survey JSON for BOKSS assessments with bilingual Traditional Chinese (tc) + English, locale tc, and a hidden last page of expression score totals. Each score expression uses clearIfInvisible none; the survey uses clearInvisibleValues onHidden. The same JSON must run on SurveyJS 1.9.80 and 2.3.6. When editing existing JSON, preserve original names, values, titles, and widgets. Use when creating, converting, or editing SurveyJS questionnaire JSON, assessment forms, or scale surveys.
 ---
 
 # SurveyJS JSON
@@ -15,8 +15,9 @@ When modifying an existing SurveyJS JSON, preserve every original `name`, `value
 2. **Last page** must be hidden (`"visible": false`) and hold `expression` questions that calculate scores. Never a visible results / 社工檢視 page unless the user wants scores on screen.
 3. **Score persistence (SurveyJS 2.3.6):** root `"clearInvisibleValues": "onHidden"`, and `"clearIfInvisible": "none"` on **every** hidden-page expression. The survey setting still clears leftover answers on skipped scales (for example 只填 DASS-Y). The question setting keeps those expressions in `valuesHash`, which the host save logic reads. Do not move scores to `calculatedValues`.
 4. **Every user-visible string** is bilingual: English in `default`, Traditional Chinese in `tc`. Root `"locale": "tc"`. Do **not** add a Chinese/English language radiogroup; the host already switches locale.
+5. **Live form platform is SurveyJS 1.9.80.** SurveyJS 2.3.6 must still accept the same JSON. Never set `showProgressBar` to a boolean. On 1.9.80 the setter is `newValue.toLowerCase()`. Boolean `true` throws `TypeError: e.toLowerCase is not a function` at `survey.ts` `set showProgressBar`, and the survey never opens. Use a string only: `"top"`, `"bottom"`, `"both"`, or `"off"`. Do not also set `progressBarLocation`. On 1.9.80 the position is `showProgressBar` itself. On 2.3.6 the string `"top"` still turns the bar on and sets the location.
 
-Do not use bilingual objects on `description` or `html`. Do not use `"type": "html"` or `"calculatedValues"`. Put instructions in a **panel `title`**. End with `"headerView": "advanced"`. Replacing JSON does not backfill earlier responses that are missing scores; confirm with a new submission.
+Do not use bilingual objects on `description` or `html`. Do not use `"type": "html"` or `"calculatedValues"`. Put instructions in a **panel `title`**. End with `"headerView": "advanced"`. 1.9.80 ignores `headerView` and does not crash; newer hosts still need `"advanced"`. Replacing JSON does not backfill earlier responses that are missing scores; confirm with a new submission.
 
 ## Root skeleton
 
@@ -177,6 +178,9 @@ Conditional follow-up:
 | `"colCount"` | Omit unless asked |
 | `"inputType"` on **new** fields | Omit unless asked; **keep** `inputType` / `min` / `max` when the source survey already has them |
 | Locale `zh-tw` / `zh-hk` | `"tc"` |
+| `showProgressBar: true` or `false` | `"top"`, `"bottom"`, `"both"`, or `"off"` |
+| `eachRowRequired` on a matrix | `isAllRowRequired`. 1.9.80 does not know `eachRowRequired`, so rows are not required. 2.3.6 still accepts `isAllRowRequired` as the alias of `eachRowRequired`. |
+| `requiredMark` | `requiredText`. 1.9.80 does not know `requiredMark`. 2.3.6 treats `requiredText` as the alternative name of `requiredMark`. |
 
 ## Workflow
 
@@ -185,7 +189,7 @@ Conditional follow-up:
 3. **New:** bilingual title from source papers; first page `testType` + `completionDate` (or the source’s three-wave occasion if it has one). **Edit:** wrap existing `title`; do not change it unless asked.
 4. Add scale pages (panels + radiogroups) around preserved fields. New fields get new ASCII names.
 5. Add hidden `scores` page with one expression per total/subscale, each with `"clearIfInvisible": "none"`. Set root `"clearInvisibleValues": "onHidden"`. No visible results page.
-6. Close with `"headerView": "advanced"`.
+6. Close with `"headerView": "advanced"`. If a progress bar is needed, set `showProgressBar` to `"top"`, `"bottom"`, `"both"`, or `"off"` — never a boolean, and do not set `progressBarLocation`. On a matrix, use `isAllRowRequired`. For the required mark, use `requiredText`.
 7. Run the checklist.
 
 ## Checklist
@@ -201,5 +205,8 @@ Conditional follow-up:
 - [ ] Every `title` and choice `text` has `default` + `tc`
 - [ ] No bilingual `description` / `html`; no `calculatedValues`
 - [ ] `"headerView": "advanced"`
+- [ ] `showProgressBar` is `"top"`, `"bottom"`, `"both"`, `"off"`, or omitted — never a boolean; no `progressBarLocation`
+- [ ] Matrix row requirement is `isAllRowRequired`, not `eachRowRequired`
+- [ ] Required mark is `requiredText`, not `requiredMark`
 
 Compact full example: [examples.md](examples.md).
