@@ -2,56 +2,58 @@
 
 Full table: [corpus-index.csv](corpus-index.csv). **No article bodies.**
 
-Source listing: `https://refresh.bokss.org.hk/tc/insights` (scraped 2026-10-18 HKT).
-Weights: **GA4 MCP** property `298556736`, metrics `organicGoogleSearchClicks` / `organicGoogleSearchImpressions`, landing contains `/insights`.
-Windows ending **2026-10-17**: 7d = 2026-10-11→2026-10-17; 28d = 2026-09-20→2026-10-17.
+Source listing: `https://refresh.bokss.org.hk/tc/insights` (scraped 2026-10-27 HKT).
+Weights: **GA4 MCP** `organicGoogleSearch*` on property `298556736` (`organicGoogleSearchClicks` / `organicGoogleSearchImpressions`), landing contains `/insights`.
+Windows ending **2026-10-26**: 7d = 2026-10-20→2026-10-26; 28d = 2026-09-29→2026-10-26.
 `weight_28d` ≈ `clicks_28d + 0.002×impressions_28d + 50×ctr_28d` (primary = clicks).
 
-- Listed from site: 309
-- Rows in index (incl. listing-miss / GA4-only): 310
-- With clicks_28d>0: 182
+- Listed from site: ~308
+- Rows in index (incl. listing-miss / GA4-only): 311
+- With clicks_28d>0: 177
 
 ## Type mix (guess)
 - 標準熱話科普: 220
 - EAP／影片: 44
-- Re:Fresh Plus 深度專欄: 33
+- Re:Fresh Plus 深度專欄: 34
 - 日子／國際日專題: 11
 - EAP 企業訪談: 1
 - 未分類／listing未見: 1
+
+Plus path added this run (not a 標準 subtype): `/tc/insights/off-duty-work-messages-3-tips-EAP` (2026-10-26) — 職場／過勞／職涯規劃.
 
 ## Top 25 by weight_28d
 
 | weight | clicks28 | imps28 | CTR28 | date | type | title | path |
 |-------:|---------:|-------:|------:|------|------|-------|------|
-| 154.652 | 122 | 16137 | 0.76% | 2023-07-03 | 標準熱話科普 | 5種愛的語言 了解你與伴侶的愛的方式 有效表達愛意 讓平淡關係升溫 | `/tc/insights/5-Love-Languages` |
-| 115.753 | 103 | 5943 | 1.73% | 2024-05-03 | 標準熱話科普 | 認識5種常見「內在小孩」 3個方法讓「自」癒之旅啟航 | `/tc/insights/Inner-child` |
-| 107.497 | 78 | 14615 | 0.53% | 2024-08-01 | 標準熱話科普 | 附測試連結｜你是高敏感人嗎？ 善用7大特質 活出獨特人生 | `/tc/insights/highly-sensitive-people` |
-| 75.300 | 70 | 1248 | 5.61% | 2023-02-03 | 標準熱話科普 | 想太多、鑽牛角尖？ 9個思想陷阱令你遠離快樂 | `/tc/insights/AutomaticThoughts` |
-| 45.103 | 41 | 1190 | 3.45% | 2024-07-10 | 標準熱話科普 | 沒有工作值得你犧牲身心健康 7大跡象 代表你是時候轉工 | `/tc/insights/should-i-resign-2024` |
-| 44.959 | 33 | 5838 | 0.57% | 2024-01-09 | 標準熱話科普 | 大腦被杏仁核劫持了？！ 5個方法防止情緒跳掣 | `/tc/insights/amygdala-hijack` |
-| 39.796 | 36 | 923 | 3.90% | 2025-03-11 | 標準熱話科普 | 情緒管理︱照顧者必學的「五感減壓法」 10分鐘就有感！ | `/tc/insights/caregivers` |
-| 37.920 | 29 | 4291 | 0.68% | 2023-01-05 | 標準熱話科普 | 偉人給你5個抗負金句 | `/tc/insights/positive_quotes` |
-| 37.689 | 34 | 949 | 3.58% | 2026-01-22 | 標準熱話科普 | 不懂畫畫也能用藝術治療自己？研究：亂畫45分鐘有效減壓！ | `/tc/insights/hong-kong-art-therapy-stress-relief-refresh` |
-| 36.042 | 32 | 1481 | 2.16% | 2023-03-29 | 標準熱話科普 | 家庭也會「生病」 三大潛藏相處模式影響重大 | `/tc/insights/family-therapy-concepts` |
-| 33.610 | 28 | 2528 | 1.11% | 2024-05-20 | 標準熱話科普 | 6大「拖延症」類型 即Check你屬於哪類（附測試連結） | `/tc/insights/procrastination-2024` |
-| 31.950 | 14 | 8936 | 0.16% | 2023-08-23 | 標準熱話科普 | 總是心很累？ 外向人vs內向人 休息方法大不同 | `/tc/insights/Extrovert-Introvert` |
-| 30.020 | 26 | 1605 | 1.62% | 2026-02-09 | 標準熱話科普 | 「麻木了」怎麼辦？3個幫你擺脫「空心人」狀態，找回內心溫度 | `/tc/insights/hk_overcoming-emotional-numbness-meaning-therapy` |
-| 27.459 | 21 | 3058 | 0.69% | 2023-09-06 | 標準熱話科普 | 開解不了身邊人怎麼辦？ 美國社工導師教你3個有效的安慰技巧 | `/tc/insights/comfort-just-right` |
-| 24.297 | 21 | 1217 | 1.73% | 2026-03-10 | 標準熱話科普 | 為何我們變成「初級大人」？心理學揭現代人的成熟焦慮 | `/tc/insights/hk-junior-adult-maturity-anxiety-refresh` |
-| 22.107 | 18 | 1804 | 1.00% | 2025-01-21 | 標準熱話科普 | 從《香港四徑大步走》學懂的人生課題 把痛點變轉捩點 培養韌性是生存之道 | `/tc/insights/hk4trails` |
-| 19.132 | 11 | 3997 | 0.28% | 2023-04-19 | 標準熱話科普 | 一期一會——從賞櫻、茶道體悟人生哲學 珍惜每一次相會 | `/tc/insights/once-in-a-lifetime` |
-| 17.944 | 10 | 3908 | 0.26% | 2023-09-21 | 標準熱話科普 | 完美主義OUT ?! 認識卓越主義 讓你不被失敗打擊 更有能力實踐高質目標 | `/tc/insights/perfectionist` |
-| 16.892 | 10 | 3372 | 0.30% | 2024-08-23 | 標準熱話科普 | 自我成長｜每天花很多時間看社交媒體？不敢錯過朋友同事聚會？ 你有錯失恐懼症FOMO嗎？（附測試連結） | `/tc/insights/fomo` |
-| 16.837 | 14 | 318 | 4.40% | 2026-08-17 | 標準熱話科普 | 【婆媳關係】為何奶奶的一片好心，總讓新抱覺得被控制？ | `/tc/insights/mother-in-law-relationship-boundaries-communication` |
-| 16.448 | 11 | 2619 | 0.42% | 2026-06-08 | 日子／國際日專題 | 【父親節】鐵漢也有無力時：解構中年男人的三大壓力源與自救指南 | `/tc/insights/midlife-crisis-fathers-stress-guide` |
-| 16.165 | 7 | 4544 | 0.15% | 2025-01-24 | 標準熱話科普 | 情緒管理︱從Disneyland、Jellycat學習提升好感度 「情緒價值」是關鍵 5個小技巧有效建立關係 | `/tc/insights/Emotional-Value` |
-| 15.818 | 11 | 2289 | 0.48% | 2023-06-30 | 標準熱話科普 | 全民禮貌運動 5個「避雷」說話技巧 讓別人不生氣又聽進批評 | `/tc/insights/communication-skills` |
-| 15.447 | 11 | 2092 | 0.53% | 2024-01-16 | 標準熱話科普 | 你是溝通終結者嗎？ 3方面成為優質聆聽者 讓人願意向你傾訴 | `/tc/insights/active-listening` |
-| 15.427 | 13 | 399 | 3.26% | 2026-05-08 | 標準熱話科普 | 爆旋陀螺翻Hit背後：童年對戰遊戲原來是數碼時代的「精神解藥」？ | `/tc/insights/beyblade-childhood-games-mentalhealth-hk-refresh` |
+| 127.049 | 100 | 13337 | 0.75% | 2023-07-03 | 標準熱話科普 | 5種愛的語言 了解你與伴侶的愛的方式 有效表達愛意 讓平淡關係升溫 | `/tc/insights/5-Love-Languages` |
+| 113.352 | 80 | 16555 | 0.48% | 2024-08-01 | 標準熱話科普 | 附測試連結｜你是高敏感人嗎？ 善用7大特質 活出獨特人生 | `/tc/insights/highly-sensitive-people` |
+| 102.139 | 94 | 3373 | 2.79% | 2024-05-03 | 標準熱話科普 | 認識5種常見「內在小孩」 3個方法讓「自」癒之旅啟航 | `/tc/insights/Inner-child` |
+| 58.676 | 54 | 1298 | 4.16% | 2023-02-03 | 標準熱話科普 | 想太多、鑽牛角尖？ 9個思想陷阱令你遠離快樂 | `/tc/insights/AutomaticThoughts` |
+| 47.162 | 43 | 953 | 4.51% | 2026-01-22 | 標準熱話科普 | 不懂畫畫也能用藝術治療自己？研究：亂畫45分鐘有效減壓！ | `/tc/insights/hong-kong-art-therapy-stress-relief-refresh` |
+| 46.111 | 42 | 1106 | 3.80% | 2024-07-10 | 標準熱話科普 | 沒有工作值得你犧牲身心健康 7大跡象 代表你是時候轉工 | `/tc/insights/should-i-resign-2024` |
+| 45.537 | 34 | 5617 | 0.61% | 2024-01-09 | 標準熱話科普 | 大腦被杏仁核劫持了？！ 5個方法防止情緒跳掣 | `/tc/insights/amygdala-hijack` |
+| 39.798 | 36 | 911 | 3.95% | 2025-03-11 | 標準熱話科普 | 情緒管理︱照顧者必學的「五感減壓法」 10分鐘就有感！ | `/tc/insights/caregivers` |
+| 36.456 | 31 | 2406 | 1.29% | 2024-05-20 | 標準熱話科普 | 6大「拖延症」類型 即Check你屬於哪類（附測試連結） | `/tc/insights/procrastination-2024` |
+| 35.854 | 28 | 3740 | 0.75% | 2023-01-05 | 標準熱話科普 | 偉人給你5個抗負金句 | `/tc/insights/positive_quotes` |
+| 34.041 | 16 | 8976 | 0.18% | 2023-08-23 | 標準熱話科普 | 總是心很累？ 外向人vs內向人 休息方法大不同 | `/tc/insights/Extrovert-Introvert` |
+| 32.901 | 29 | 1451 | 2.00% | 2023-03-29 | 標準熱話科普 | 家庭也會「生病」 三大潛藏相處模式影響重大 | `/tc/insights/family-therapy-concepts` |
+| 27.406 | 24 | 1205 | 1.99% | 2026-03-10 | 標準熱話科普 | 為何我們變成「初級大人」？心理學揭現代人的成熟焦慮 | `/tc/insights/hk-junior-adult-maturity-anxiety-refresh` |
+| 26.860 | 23 | 1562 | 1.47% | 2026-02-09 | 標準熱話科普 | 「麻木了」怎麼辦？3個幫你擺脫「空心人」狀態，找回內心溫度 | `/tc/insights/hk_overcoming-emotional-numbness-meaning-therapy` |
+| 24.454 | 18 | 3081 | 0.58% | 2023-09-06 | 標準熱話科普 | 開解不了身邊人怎麼辦？ 美國社工導師教你3個有效的安慰技巧 | `/tc/insights/comfort-just-right` |
+| 21.327 | 17 | 1945 | 0.87% | 2025-01-21 | 標準熱話科普 | 從《香港四徑大步走》學懂的人生課題 把痛點變轉捩點 培養韌性是生存之道 | `/tc/insights/hk4trails` |
+| 21.308 | 13 | 4074 | 0.32% | 2023-04-19 | 標準熱話科普 | 一期一會——從賞櫻、茶道體悟人生哲學 珍惜每一次相會 | `/tc/insights/once-in-a-lifetime` |
+| 16.990 | 11 | 2900 | 0.38% | 2024-08-23 | 標準熱話科普 | 自我成長｜每天花很多時間看社交媒體？不敢錯過朋友同事聚會？ 你有錯失恐懼症FOMO嗎？（附測試連結） | `/tc/insights/fomo` |
+| 16.848 | 9 | 3866 | 0.23% | 2023-09-21 | 標準熱話科普 | 完美主義OUT ?! 認識卓越主義 讓你不被失敗打擊 更有能力實踐高質目標 | `/tc/insights/perfectionist` |
+| 15.652 | 8 | 3773 | 0.21% | 2025-01-24 | 標準熱話科普 | 情緒管理︱從Disneyland、Jellycat學習提升好感度 「情緒價值」是關鍵 5個小技巧有效建立關係 | `/tc/insights/Emotional-Value` |
+| 15.329 | 13 | 464 | 2.80% | 2026-08-17 | 標準熱話科普 | 【婆媳關係】為何奶奶的一片好心，總讓新抱覺得被控制？ | `/tc/insights/mother-in-law-relationship-boundaries-communication` |
+| 14.792 | 11 | 1738 | 0.63% | 2024-02-29 | 標準熱話科普 | 林本利傳授「投資十誡」 做好2024財務預算 建立正確投資觀 | `/tc/insights/investment-2024` |
+| 14.450 | 11 | 1547 | 0.71% | 2024-09-03 | 標準熱話科普 | 個人成長｜覺得自己永遠是錯？為缺點感困擾？後悔做過的事？（附測試連結） 臨床心理學家3招改善自我批評 教你更自愛 | `/tc/insights/self-criticism-with-assessment` |
+| 14.381 | 11 | 1508 | 0.73% | 2024-09-20 | 標準熱話科普 | 個人成長｜你幸福嗎？ 5句哲學家語錄 教你由自己定義幸福 | `/tc/insights/philosopher-quotes` |
+| 14.279 | 11 | 1450 | 0.76% | 2025-11-13 | 日子／國際日專題 | 世界友善日｜澳牛港式Mean「整定嘅」？ 毒舌背後的善意 | `/tc/insights/hong-kong-mean-culture-australia-dairy-company` |
 
 ## subtype_guess（標準熱話科普 only）
 
-Lightweight labels for drafting calibration — **source of truth for definitions:** [article-types.md](article-types.md) §subtypes. Map covers top-weight 標準 rows above plus gold-card 標準 paths.
+Lightweight labels for drafting calibration — **source of truth for definitions:** [article-types.md](article-types.md) §subtypes. Map covers gold-card 標準 paths and standing calibration rows (not every Top 25 標準 path). Plus paths stay out of this table.
 
 | subtype_guess | path |
 |---------------|------|
