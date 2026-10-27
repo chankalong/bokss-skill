@@ -1,6 +1,6 @@
-# Weekly digest — 2026-10-11 → 2026-10-17 (HKT)
+# Weekly digest — 2026-10-20 → 2026-10-26 (HKT)
 
-Window: 7 days ending **2026-10-17**. Distill only; no full-text archive in skill.
+Window: 7 days ending **2026-10-26**. Mid-week incremental distill; no full-text archive in skill.
 
 ## Method
 
@@ -8,66 +8,68 @@ Distillation corpus = **all listed Insights** + **GA4** organic weights (not las
 See [corpus-index.md](corpus-index.md) + [corpus-index.csv](corpus-index.csv).
 
 Data source: GA4 MCP property `298556736`, metrics `organicGoogleSearchClicks` / `organicGoogleSearchImpressions`, landing contains `/insights`.
-28d window: **2026-09-20 → 2026-10-17**.
+28d window: **2026-09-29 → 2026-10-26**.
 
 ## New / notable Insights
 
 | Date (list) | Slug | Type | One-line pattern |
 |-------------|------|------|------------------|
-| 2026-10-15 | `roommate-marriage-emotional-disconnection-refresh` | 標準・關係／親密／溝通技巧 | 室友式婚姻 construct → 疏離≠平淡 → 專屬時光＋好奇心提問 → FAQ |
+| 2026-10-26 | `off-duty-work-messages-3-tips-EAP` | Plus・職場／過勞／職涯規劃 | 下班仍待命（規範＋手機設計＋混合辦公）→ 三招：下班儀式／協商回覆時段／企業通訊指引 → 安心離線結語 |
+
+EN twin: **none** (404 on `/en/insights/off-duty-work-messages-3-tips-EAP`; switcher → `/en/node/1109`).
 
 ## GA4 organic (property `298556736`)
 
-Site Insights totals — **7d:** 298 clicks / 33,093 imps; **28d:** 1,367 / 177,491.
+Site Insights totals — **7d:** 235 clicks / 31,996 imps; **28d:** 1,291 / 165,516.
 
 ### Top Insights landings by organic clicks (7d)
 
-Date range: **2026-10-11 → 2026-10-17**.
+Date range: **2026-10-20 → 2026-10-26**.
 
 | Landing | Clicks | Impressions | CTR |
 |---------|-------:|------------:|----:|
-| `/tc/insights/Inner-child` | 25 | 675 | 3.70% |
-| `/tc/insights/5-Love-Languages` | 22 | 2602 | 0.85% |
-| `/tc/insights/AutomaticThoughts` | 17 | 288 | 5.90% |
-| `/tc/insights/highly-sensitive-people` | 12 | 2723 | 0.44% |
-| `/tc/insights/procrastination-2024` | 12 | 577 | 2.08% |
-| `/tc/insights/should-i-resign-2024` | 11 | 201 | 5.47% |
-| `/tc/insights/family-therapy-concepts` | 11 | 330 | 3.33% |
-| `/tc/insights/hong-kong-art-therapy-stress-relief-refresh` | 8 | 206 | 3.88% |
-| `/tc/insights/amygdala-hijack` | 7 | 1129 | 0.62% |
-| `/tc/insights/caregivers` | 6 | 188 | 3.19% |
+| `/tc/insights/highly-sensitive-people` | 19 | 4702 | 0.40% |
+| `/tc/insights/Inner-child` | 17 | 791 | 2.15% |
+| `/tc/insights/5-Love-Languages` | 14 | 2436 | 0.57% |
+| `/tc/insights/family-therapy-concepts` | 9 | 240 | 3.75% |
+| `/tc/insights/AutomaticThoughts` | 8 | 261 | 3.07% |
+| `/tc/insights/hong-kong-art-therapy-stress-relief-refresh` | 8 | 160 | 5.00% |
+| `/tc/insights/amygdala-hijack` | 7 | 949 | 0.74% |
+| `/tc/insights/should-i-resign-2024` | 7 | 213 | 3.29% |
+| `/tc/insights/positive_quotes` | 6 | 654 | 0.92% |
+| `/tc/insights/procrastination-2024` | 6 | 391 | 1.53% |
 
 ### Top Insights landings by organic clicks (28d)
 
-Date range: **2026-09-20 → 2026-10-17**.
+Date range: **2026-09-29 → 2026-10-26**.
 
 | Landing | Clicks | Impressions | CTR |
 |---------|-------:|------------:|----:|
-| `/tc/insights/5-Love-Languages` | 122 | 16137 | 0.76% |
-| `/tc/insights/Inner-child` | 103 | 5943 | 1.73% |
-| `/tc/insights/highly-sensitive-people` | 78 | 14615 | 0.53% |
-| `/tc/insights/AutomaticThoughts` | 70 | 1248 | 5.61% |
-| `/tc/insights/should-i-resign-2024` | 41 | 1190 | 3.45% |
-| `/tc/insights/caregivers` | 36 | 923 | 3.90% |
-| `/tc/insights/amygdala-hijack` | 33 | 5838 | 0.57% |
-| `/tc/insights/hong-kong-art-therapy-stress-relief-refresh` | 34 | 949 | 3.58% |
-| `/tc/insights/family-therapy-concepts` | 32 | 1481 | 2.16% |
-| `/tc/insights/positive_quotes` | 29 | 4291 | 0.68% |
+| `/tc/insights/5-Love-Languages` | 100 | 13337 | 0.75% |
+| `/tc/insights/Inner-child` | 94 | 3373 | 2.79% |
+| `/tc/insights/highly-sensitive-people` | 80 | 16555 | 0.48% |
+| `/tc/insights/AutomaticThoughts` | 54 | 1298 | 4.16% |
+| `/tc/insights/hong-kong-art-therapy-stress-relief-refresh` | 43 | 953 | 4.51% |
+| `/tc/insights/should-i-resign-2024` | 42 | 1106 | 3.80% |
+| `/tc/insights/caregivers` | 36 | 911 | 3.95% |
+| `/tc/insights/amygdala-hijack` | 34 | 5617 | 0.61% |
+| `/tc/insights/procrastination-2024` | 31 | 2406 | 1.29% |
+| `/tc/insights/family-therapy-concepts` | 29 | 1451 | 2.00% |
 
 ### Notes for writers / SEO desk
 
-- Evergreen construct pages (五愛、內在小孩、HSP、Automatic Thoughts) still dominate 28d clicks.
-- New URL `roommate-marriage-emotional-disconnection-refresh` has **0** GA4 organic clicks/imps so far (too fresh); track next week via clicks_7d.
-- Gold Layer A/B paths **unchanged** (no clear path swap; Plus volumes still tiny / jittery).
+- Evergreen construct pages (五愛、HSP、內在小孩、Automatic Thoughts) still dominate 28d clicks.
+- New URL `off-duty-work-messages-3-tips-EAP` has **0** GA4 organic clicks/imps so far (published 2026-10-26; Plus paywall); track next week via clicks_7d.
+- Gold Layer A/B paths **unchanged** (no clear path swap; Plus volumes still tiny / jittery; 日子 midlife-fathers still preferred coverage slot vs near-peer mean-culture).
 - Avg position not in GA4 organic field set this week; corpus `avg_pos_*` columns left blank.
 
 ## New Insights (this distill)
 
-- 2026-10-15: `/tc/insights/roommate-marriage-emotional-disconnection-refresh` — 夫妻愈來愈像室友？婚姻最傷人的不是爭吵，而是連架也懶得吵 (clicks_28d=0, clicks_7d=0)
+- 2026-10-26: `/tc/insights/off-duty-work-messages-3-tips-EAP` — 【Re:Fresh Plus專屬內容】深度專欄 | 收工仲要覆訊息？3招告別「隨時候命」 (clicks_28d=0, clicks_7d=0)
 
 ## Weight leaders (28d organic clicks) — skill focus
 
-Evergreen construct pages still dominate: 五愛的語言、內在小孩、HSP、Automatic Thoughts、杏仁核劫持、照顧者、辭職決策等。
+Evergreen construct pages still dominate: 五愛的語言、高敏感、內在小孩、Automatic Thoughts、藝術治療減壓、辭職決策、照顧者、杏仁核劫持等。
 
 ## Maintenance
 
