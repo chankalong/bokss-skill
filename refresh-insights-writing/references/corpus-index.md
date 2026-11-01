@@ -2,26 +2,38 @@
 
 Full table: [corpus-index.csv](corpus-index.csv). **No article bodies.**
 
-Source listing: `https://refresh.bokss.org.hk/tc/insights` (scraped 2026-10-27 HKT).
-Weights: **GA4 MCP** `organicGoogleSearch*` on property `298556736` (`organicGoogleSearchClicks` / `organicGoogleSearchImpressions`), landing contains `/insights`.
-Windows ending **2026-10-26**: 7d = 2026-10-20→2026-10-26; 28d = 2026-09-29→2026-10-26.
+Source listing: `https://refresh.bokss.org.hk/tc/insights` (scraped 2026-11-01 HKT).
+Weights: **GA4** `organicGoogleSearch*` on property `298556736` (`organicGoogleSearchClicks` / `organicGoogleSearchImpressions`), landing contains `/insights`.
+Windows ending **2026-10-31** (site totals): 7d = 2026-10-25→2026-10-31 (**274** clicks / **30,090** imps); 28d = 2026-10-04→2026-10-31 (**1,338** clicks / **163,669** imps).
 `weight_28d` ≈ `clicks_28d + 0.002×impressions_28d + 50×ctr_28d` (primary = clicks).
 
-- Listed from site: ~308
-- Rows in index (incl. listing-miss / GA4-only): 311
+Per-row clicks, impressions, and `weight_28d` stay on the **2026-10-26** pull, except rows this run could score without inventing page metrics:
+
+- `/tc/insights/off-duty-work-messages-3-tips-EAP`: **0** clicks / **1** impression (7d and 28d) → `weight_28d` **0.002**
+- the two paths added below: no organic rows → zeros
+
+GA4 MCP was unavailable on this run, and the decision extract had site totals plus a 7d click sample only. The Top 25 table is still that **2026-10-26** ranking.
+
+- Listed from site: 310
+- Rows in index (incl. listing-miss / GA4-only): 313
 - With clicks_28d>0: 177
 
 ## Type mix (guess)
-- 標準熱話科普: 220
+- 標準熱話科普: 222
 - EAP／影片: 44
 - Re:Fresh Plus 深度專欄: 34
 - 日子／國際日專題: 11
 - EAP 企業訪談: 1
 - 未分類／listing未見: 1
 
-Plus path added this run (not a 標準 subtype): `/tc/insights/off-duty-work-messages-3-tips-EAP` (2026-10-26) — 職場／過勞／職涯規劃.
+Paths added this run (heading-level distill only; no article bodies):
+
+- `/tc/insights/sychology-effective-apology-relationship-repair-refresh-hk` (2026-10-30) — 標準熱話科普 · 關係／親密／溝通技巧. Mode: 口語引用開場 → 假道歉／二次傷害 → 承認責任 vs 請求原諒 → 3個修復步驟. Slug spells `sychology` as published. Organic: none. `/en/insights/…` 404.
+- `/tc/insights/scam-victim-psychology-cognitive-dissonance-refresh-hk` (2026-10-27) — 標準熱話科普 · 個人成長／情緒機制（evergreen）. Mode: H2 認知失調、沉沒成本／承諾升級、羞恥與孤立 → 懷疑家人被騙時怎樣幫忙. Organic: none. `/en/insights/…` 404.
 
 ## Top 25 by weight_28d
+
+Ranking below is the **2026-10-26** GA4 pull (not re-ranked for the 2026-10-31 window).
 
 | weight | clicks28 | imps28 | CTR28 | date | type | title | path |
 |-------:|---------:|-------:|------:|------|------|-------|------|
@@ -81,3 +93,5 @@ Lightweight labels for drafting calibration — **source of truth for definition
 | 個人成長／情緒機制（evergreen） | `/tc/insights/unconscious-mind` |
 | 照顧者／親子／家庭 | `/tc/insights/child-abuse-tuenmun-parenting-refresh-hk` |
 | 個人成長／情緒機制（evergreen） | `/tc/insights/recognisably-You-Uniqueness-psychology-refresh` |
+| 關係／親密／溝通技巧 | `/tc/insights/sychology-effective-apology-relationship-repair-refresh-hk` |
+| 個人成長／情緒機制（evergreen） | `/tc/insights/scam-victim-psychology-cognitive-dissonance-refresh-hk` |
