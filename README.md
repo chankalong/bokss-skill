@@ -72,6 +72,10 @@ Each folder has `SOURCE.md` and the upstream license. **Not** BOKSS-licensed.
 
 `speak-human-tw` is Taiwan-register 去 AI 味. Do **not** use it on BOKSS clinical notes or bokss.org.hk 書面語 — use `bokss-hk-writing` / `refresh-insights-writing` instead.
 
+### Illustration
+
+- **japanese-vintage-popart-illustration** — flat Japanese vintage pop-art figures on a white background, limited to 2–3 supplied hex colours. The source package had no license file, so this folder is not covered by the BOKSS CC licence.
+
 ## License
 
 BOKSS original skills (every folder listed under **BOKSS originals** above) and this README:
