@@ -1,78 +1,84 @@
-# Weekly digest — 2026-10-04 → 2026-10-10 (HKT)
+# Weekly digest — 2026-11-08 → 2026-11-14 (HKT)
 
-Window: 7 days ending **2026-10-10**. Distill only; no full-text archive in skill.
+Window: 7 days ending **2026-11-14**. Sunday incremental distill; no full-text archive in skill.
 
 ## Method
 
-Distillation corpus = **all listed Insights** + **GSC** organic weights (not last-7-days-only).
+Distillation corpus = **all listed Insights** + **GA4** organic weights (not last-7-days-only).
 See [corpus-index.md](corpus-index.md) + [corpus-index.csv](corpus-index.csv).
 
-Data source: Google Search Console API (`webmasters.readonly`) for `https://refresh.bokss.org.hk/`, dimension `page` contains `/insights`.
-Quota project `refresh-bokss`. GA4 not used this week (GSC ok).
+Data source: GA4 property `298556736`, metrics `organicGoogleSearchClicks` / `organicGoogleSearchImpressions`, dimension `landingPagePlusQueryString` contains `/insights`.
+28d window: **2026-10-18 → 2026-11-14**.
 
 ## New / notable Insights
 
 | Date (list) | Slug | Type | One-line pattern |
 |-------------|------|------|------------------|
-| 2026-10-07 | `child-abuse-tuenmun-parenting-refresh-hk` | 標準・家庭／照顧者 | 屯門虐兒時事 → 看見異樣 → 引導受困孩子安全說出心聲 |
-| 2026-10-05 | `recognisably-You-Uniqueness-psychology-refresh` | 標準・個人成長 | 獨特性消失 → 社會進步 vs 不敢做自己 → 自我接納 |
+| 2026-11-10 | `working-carers-respite-guide-EAP` | Re:Fresh Plus 深度專欄 | 在職照顧者日常場景開場 → 定義雙重角色／無形牽掛 → 照顧者倦怠警號 → 界線／把不好意思變成謝謝／允許休息 |
 
-## GSC organic (site `https://refresh.bokss.org.hk/`)
+EN twin: **none** (`/en/insights/working-carers-respite-guide-EAP` 404). Unprefixed `/insights/<slug>` returns 200 and is still zh-hant. Byline: 張家瑛 Kiwi（本處輔導心理學家）. Listing cat: 工作與財務管理.
 
-Site Insights totals — **7d:** 170 clicks / 19,903 imps; **28d:** 1,293 / 204,383.
+## GA4 organic (property `298556736`)
+
+Site Insights totals — **7d:** 312 clicks / 35,082 imps; **28d:** 1,392 / 169,213.
+
+Prior Sunday window (ending 2026-11-07, continuity only): 7d 267 / 34,679; 28d 1,341 / 166,148.
 
 ### Top Insights landings by organic clicks (7d)
 
-Date range: **2026-10-04 → 2026-10-10**.
+Date range: **2026-11-08 → 2026-11-14**.
 
-| Landing | Clicks | Impressions | Avg pos | CTR |
-|---------|-------:|------------:|--------:|----:|
-| `/tc/insights/Inner-child` | 14 | 367 | 5.84 | 3.81% |
-| `/tc/insights/5-Love-Languages` | 12 | 1531 | 7.16 | 0.78% |
-| `/tc/insights/highly-sensitive-people` | 9 | 1906 | 5.48 | 0.47% |
-| `/tc/insights/AutomaticThoughts` | 7 | 179 | 5.45 | 3.91% |
-| `/tc/insights/should-i-resign-2024` | 7 | 143 | 9.01 | 4.90% |
-| `/tc/insights/procrastination-2024` | 6 | 275 | 7.81 | 2.18% |
-| `/tc/insights/amygdala-hijack` | 5 | 871 | 10.22 | 0.57% |
-| `/tc/insights/positive_quotes` | 5 | 467 | 8.01 | 1.07% |
-| `/tc/insights/primary-student-academic-stress-tips` | 5 | 24 | 16.21 | 20.83% |
-| `/tc/insights/caregivers` | 4 | 127 | 8.80 | 3.15% |
+| Landing | Clicks | Impressions |
+|---------|-------:|------------:|
+| `/tc/insights/Inner-child` | 20 | 623 |
+| `/tc/insights/5-Love-Languages` | 19 | 2,743 |
+| `/tc/insights/highly-sensitive-people` | 14 | 2,767 |
+| `/tc/insights/AutomaticThoughts` | 13 | 289 |
+| `/tc/insights/amygdala-hijack` | 11 | 1,094 |
+| `/tc/insights/caregivers` | 11 | 183 |
+| `/tc/insights/investment-2024` | 10 | 471 |
+| `/tc/insights/should-i-resign-2024` | 9 | 200 |
+| `/tc/insights/Extrovert-Introvert` | 6 | 1,990 |
+| `/tc/insights/once-in-a-lifetime` | 6 | 1,232 |
 
 ### Top Insights landings by organic clicks (28d)
 
-Date range: **2026-09-13 → 2026-10-10**.
+Date range: **2026-10-18 → 2026-11-14**. Weight = clicks + 0.002×imps + 50×ctr.
 
-| Landing | Clicks | Impressions | Avg pos | CTR |
-|---------|-------:|------------:|--------:|----:|
-| `/tc/insights/5-Love-Languages` | 137 | 26348 | 6.81 | 0.52% |
-| `/tc/insights/Inner-child` | 95 | 7819 | 6.09 | 1.21% |
-| `/tc/insights/highly-sensitive-people` | 83 | 13912 | 5.57 | 0.60% |
-| `/tc/insights/AutomaticThoughts` | 66 | 1167 | 6.91 | 5.66% |
-| `/tc/insights/amygdala-hijack` | 32 | 5773 | 10.39 | 0.55% |
-| `/tc/insights/caregivers` | 32 | 888 | 7.69 | 3.60% |
-| `/tc/insights/hong-kong-art-therapy-stress-relief-refresh` | 31 | 876 | 8.88 | 3.54% |
-| `/tc/insights/positive_quotes` | 28 | 5162 | 7.89 | 0.54% |
-| `/tc/insights/should-i-resign-2024` | 28 | 1165 | 9.34 | 2.40% |
-| `/tc/insights/procrastination-2024` | 23 | 2380 | 8.51 | 0.97% |
+| Landing | Clicks | Impressions | weight_28d |
+|---------|-------:|------------:|----------:|
+| `/tc/insights/5-Love-Languages` | 94 | 12,929 | 120.222 |
+| `/tc/insights/Inner-child` | 82 | 3,316 | 89.868 |
+| `/tc/insights/highly-sensitive-people` | 74 | 16,590 | 107.403 |
+| `/tc/insights/caregivers` | 50 | 889 | 54.590 |
+| `/tc/insights/AutomaticThoughts` | 48 | 1,337 | 52.469 |
+| `/tc/insights/amygdala-hijack` | 45 | 5,264 | 55.955 |
+| `/tc/insights/family-therapy-concepts` | 36 | 1,130 | 39.853 |
+| `/tc/insights/should-i-resign-2024` | 34 | 1,017 | 37.706 |
+| `/tc/insights/procrastination-2024` | 32 | 2,800 | 38.171 |
+| `/tc/insights/hong-kong-art-therapy-stress-relief-refresh` | 30 | 822 | 33.469 |
 
 ### Notes for writers / SEO desk
 
-- Evergreen construct pages (五愛、內在小孩、HSP、Automatic Thoughts) still dominate 28d clicks.
-- Two new URLs this week have **0** GSC clicks/imps so far (too fresh); track next week via clicks_7d.
-- Gold Layer A/B paths **unchanged** (no clear path swap; Plus volumes still tiny / jittery).
-- Weight-only numeric drift on same gold paths is not a separate PR trigger beyond the new-URL corpus update.
+- Site organic clicks rose vs last Sunday (7d 267→312; 28d 1,341→1,392); impressions also up slightly (7d 34,679→35,082; 28d 166,148→169,213). Traffic movement alone is not a gold-card swap.
+- 7d/28d leaders remain evergreen construct pages（五愛、內在小孩、HSP、照顧者、Automatic Thoughts、杏仁核）.
+- New URL `working-carers-respite-guide-EAP`: **0** clicks / **3** imps (7d and 28d).
+- `sychology-effective-apology-relationship-repair-refresh-hk`: 0 clicks / 5 imps (7d and 28d).
+- `scam-victim-psychology-cognitive-dissonance-refresh-hk`: **no organic rows** in either window.
+- `off-duty-work-messages-3-tips-EAP`: 0 clicks / 1 imp (7d); 0 clicks / 7 imps (28d).
+- Gold Layer A/B paths **unchanged**. Layer A top-3 標準 remain 五愛 / HSP / 內在小孩 (HSP still ahead of 內在小孩 by 28d weight, same order nuance as last week). Plus coverage slot remains `deal-with-toxic-coworkers-3-ways` (6/212, w=7.839). 日子 coverage slot remains `midlife-crisis-fathers-stress-guide` (6/484, w=7.588); `hong-kong-mean-culture-australia-dairy-company` is still heavier (16/1,978, w=20.360) but this gap is pre-existing, not a new coverage change.
+- Avg position not in this extract; leave corpus `avg_pos_*` blank.
 
 ## New Insights (this distill)
 
-- 2026-10-07: `/tc/insights/child-abuse-tuenmun-parenting-refresh-hk` — 【屯門虐兒疑雲】從看見異樣到走近心房：如何引導受困孩子安全說出心聲？ (clicks_28d=0, clicks_7d=0)
-- 2026-10-05: `/tc/insights/recognisably-You-Uniqueness-psychology-refresh` — 消失的「獨特性」：為何社會愈進步，我們愈不敢「做自己」？ (clicks_28d=0, clicks_7d=0)
+- 2026-11-10: `/tc/insights/working-carers-respite-guide-EAP` — 【Re:Fresh Plus專屬內容】深度專欄 | 下班後，另一份工作才開始：給在職照顧者的喘息指南 (clicks_28d=0, clicks_7d=0, impressions=3)
 
 ## Weight leaders (28d organic clicks) — skill focus
 
-Evergreen construct pages still dominate: 五愛的語言、內在小孩、HSP、Automatic Thoughts、杏仁核劫持、照顧者、辭職決策等。
+Evergreen construct pages still lead: 五愛的語言、高敏感、內在小孩、照顧者、Automatic Thoughts、杏仁核劫持、家庭治療、辭職決策、拖延自測等。
 
 ## Maintenance
 
 - Incrementally update corpus-index when listing gains URLs
-- Refresh weights weekly from GSC (28d primary, 7d contrast); GA4 fallback only if GSC fails
+- Refresh weights weekly from GA4 organicGoogleSearch* (28d primary, 7d contrast)
 - Re-pick gold-cards only when rank/type mix shifts materially
